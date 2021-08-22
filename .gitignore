@@ -39,3 +39,7 @@ vignettes/*.pdf
 .Renviron
 
 *.Rproj
+
+*.out
+
+*.txt
