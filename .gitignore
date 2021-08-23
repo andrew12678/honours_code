@@ -43,3 +43,5 @@ vignettes/*.pdf
 *.out
 
 *.txt
+
+.ipynb_checkpoints/
