@@ -151,4 +151,5 @@ generateDE <- function(cell_type){
 # cell_types = c("CD4n T", "B")
 # clusterApply(cl, cell_types, fun=generateDE)
 
-generateDE("B")
+#generateDE("B")
+generateDE("CD4n T")

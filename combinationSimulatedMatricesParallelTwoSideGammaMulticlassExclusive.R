@@ -171,8 +171,9 @@ generateDE <- function(cell_type){
 }
 
 
-# ncores <- 2
-# cl <- makeCluster(ncores)
-# cell_types = c("CD4n T", "B")
-# clusterApply(cl, cell_types, fun=generateDE)
-generateDE("B")
+ncores <- 2
+cl <- makeCluster(ncores)
+cell_types = c("CD4n T", "B")
+clusterApply(cl, cell_types, fun=generateDE)
+#generateDE("B")
+#generateDE("CD4n T")
